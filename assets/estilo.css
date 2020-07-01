@@ -1,0 +1,57 @@
+/* 
+=====================================
+====== Formulário de Cotação ========
+=====================================
+= 	Criador: Douglas Lisboa =========
+= Email: lisboadouglas.rp@gmail.com =
+======= Data: 30/12/2019 ============
+=====================================
+=====================================
+*/
+
+/* Modificando o formulário do Bootstrap */
+.form-control {
+	border-radius: 0px;
+	background: rgba(220,220,220,0.25);
+	border: none !important;
+}
+.form-control:focus, .form-control:active{
+	background: rgba(220,220,220,0.45);
+	transition: all 1s ease;
+	border-color:  red;
+}
+
+
+/* Afastando as divs */
+.form-row{
+	margin-top: 1em;
+}
+
+.btn-danger{
+	border-radius: 0px;
+}
+
+#Modelo{
+	-webkit-appearance: none;  
+	-moz-appearance: none; 
+	appearance: none;
+	background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat rgba(220,220,220,0.25);  
+	background-position: 100% center;
+	text-indent: 0.01px; 
+	text-overflow: ""; 
+	
+}
+.link {
+    color: #fff;
+	background:#bb182b;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.link:hover {
+	color: #bb182b;
+	background: #fff;
+	border: 1px solid #bb182b;
+	transition: all 1s;
+	text-decoration: none;
+}
